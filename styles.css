@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    block-size: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.game{
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    height: 900px;
+    background: black;
+    margin: 0 auto;
+    justify-content: center;
+    align-content: center;
+    gap: 15px;
+}
+.box{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
+}
+.box:after{
+background-color: white;
+opacity: 0;
+}
+.box:hover{
+    background: grey;
+}
+.box:hover:after{
+ opacity: 1;
+}
