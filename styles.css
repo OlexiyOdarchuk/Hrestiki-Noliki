@@ -29,10 +29,27 @@ body{
 }
 .box:after{
 background-color: white;
+content: "+";
+transform: rotate(45deg);
+font-size: 150px;
+position: absolute;
+width: 150px;
+height: 150px;
+margin-top: 69px;
+margin-left: 75px;
+background: 0;
 opacity: 0;
 }
 .box:hover{
     background: grey;
+}
+.box:nth-child(10){
+background-color: white;
+opacity: 1;
+}
+
+.box:nth-child(10):after{
+opacity: 0;
 }
 .box:hover:after{
  opacity: 1;
