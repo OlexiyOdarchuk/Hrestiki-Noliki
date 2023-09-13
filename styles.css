@@ -49,6 +49,9 @@ opacity: 1;
 }
 
 .box:nth-child(10):after{
+background-color: grey;
+content: "o";
+transform: rotate(0deg);
 opacity: 0;
 }
 .box:hover:after{
