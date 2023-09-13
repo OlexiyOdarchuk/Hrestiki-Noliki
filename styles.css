@@ -40,19 +40,33 @@ margin-left: 75px;
 background: 0;
 opacity: 0;
 }
+.box:nth-child(10):after{
+    background-color: white;
+    content: "0";
+    transform: rotate(45deg);
+    font-size: 150px;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin-top: 69px;
+    margin-left: 75px;
+    background: 0;
+    opacity: 0;
+}
 .box:hover{
     background: grey;
 }
 .box:nth-child(10){
-background-color: white;
-opacity: 1;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
 }
-
-.box:nth-child(10):after{
-background-color: grey;
-content: "o";
-transform: rotate(0deg);
-opacity: 0;
+.box:nth-child(10):hover{
+    background: grey;
+}
+.box:nth-child(10):hover:after{
+opacity: 1;
 }
 .box:hover:after{
  opacity: 1;
