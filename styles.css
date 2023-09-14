@@ -71,3 +71,10 @@ opacity: 1;
 .box:hover:after{
  opacity: 1;
 }
+.cross{
+    background: grey;
+    opacity: 1;
+}
+.zero{
+    background: #000;
+}
