@@ -72,9 +72,16 @@ opacity: 1;
  opacity: 1;
 }
 .cross{
-    background: grey;
-    opacity: 1;
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    border-radius: 10px;
+    font-size: 150px;
 }
 .zero{
-    background: #000;
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+    border-radius: 10px;
+    font-size: 150px;
 }

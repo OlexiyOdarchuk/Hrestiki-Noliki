@@ -4,6 +4,11 @@ for(let i=0;i<boxes.length; i++){
     boxes[i].addEventListener("click",click)
 }
 
+let button = document.querySelector("button")
+button.setAttribute("disabled", "")
+
 function click() {
-    boxes[5].classList.add("cross")
+    this.classList.remove("box")
+    this.classList.add("cross")
+    
 }
