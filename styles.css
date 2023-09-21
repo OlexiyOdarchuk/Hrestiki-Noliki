@@ -1,87 +1,97 @@
 *{
     margin: 0;
     padding: 0;
-    block-size: border-box;
-}
-body{
+    box-sizing: border-box;
+    
+  }
+  body{
     display: flex;
+    background: #000;
+    justify-content:center;
+    align-items:center;
     height: 100vh;
+  }
+  
+  
+  
+  .ping{
+    display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
-}
-.game{
-    display: flex;
+    gap: 20px;
     flex-wrap: wrap;
-    width: 900px;
-    height: 900px;
-    background: black;
-    margin: 0 auto;
+    width:300px;
+    height:300px;
+    border-radius:10px;
+  }
+  
+  
+  .a{
+    background: #4CDDE2;
+    width:80px;
+    height:80px;
+    border-radius:10px;
+   
+  }
+  .a:hover{
+    background: white;
+  }
+  .a:after{
+   display:flex;
     justify-content: center;
-    align-content: center;
-    gap: 15px;
-}
-.box{
-    width: 250px;
-    height: 250px;
-    background-color: white;
-    border-radius: 10px;
-}
-.box:after{
-background-color: white;
-content: "+";
-transform: rotate(45deg);
-font-size: 150px;
-position: absolute;
-width: 150px;
-height: 150px;
-margin-top: 69px;
-margin-left: 75px;
-background: 0;
-opacity: 0;
-}
-.box:nth-child(10):after{
-    background-color: white;
-    content: "0";
-    transform: rotate(45deg);
-    font-size: 150px;
+    align-items:center;
+    content:'❌';
+    width:80px;
+    height:80px;
     position: absolute;
-    width: 150px;
-    height: 150px;
-    margin-top: 69px;
-    margin-left: 75px;
-    background: 0;
-    opacity: 0;
-}
-.box:hover{
+    opacity:0;
+  }
+  .a:hover:after{
+    opacity:1;
+  }
+  .b{
+    background: #4CDDE2;
+    width:80px;
+    height:80px;
+    border-radius:10px;
+   
+  }
+  .b:hover{
+    background: white;
+  }
+  .b:after{
+   display:flex;
+    justify-content: center;
+    align-items:center;
+    content:'🔵';
+    width:80px;
+    height:80px;
+    position: absolute;
+    opacity:0;
+  }
+  .b:hover:after{
+    opacity:1;
+  }
+  .cross{
+    display:flex;
+    justify-content: center;
+    align-items:center;
     background: grey;
-}
-.box:nth-child(10){
-    width: 250px;
-    height: 250px;
-    background-color: white;
-    border-radius: 10px;
-}
-.box:nth-child(10):hover{
+    width:80px;
+    height:80px;
+    border-radius:10px;
+  }
+  
+  .zero{
+    display:flex;
+    justify-content: center;
+    align-items:center;
     background: grey;
-}
-.box:nth-child(10):hover:after{
-opacity: 1;
-}
-.box:hover:after{
- opacity: 1;
-}
-.cross{
-    width: 250px;
-    height: 250px;
-    background-color: red;
-    border-radius: 10px;
-    font-size: 150px;
-}
-.zero{
-    width: 250px;
-    height: 250px;
-    background-color: blue;
-    border-radius: 10px;
-    font-size: 150px;
-}
+    width:80px;
+    height:80px;
+    border-radius:10px;
+  }
+  
+  
+  
+  
