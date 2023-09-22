@@ -14,7 +14,8 @@ for (let i = 0; i < boxes.length; i++) {
                     boxes[j].classList.remove("a")
                     boxes[j].classList.add("b")
                 }
-              else if (played.filter(item=>item == this.id).length == 1) {                                               this.classList.remove("a")
+              else if (played.filter(item=>item == this.id).length == 1) {                                              
+            this.classList.remove("a")
             this.classList.add("cross")
             this.textContent = "❌"
               }
