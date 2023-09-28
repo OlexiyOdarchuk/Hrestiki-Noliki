@@ -1,94 +1,86 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
-body{
-  display: flex;
-  justify-content:center;
-  align-items:center;
-  height: 100vh;
-}
-
-
-
-.ping{
+body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  height: 100vh;
+}
+
+.ping {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 20px;
-  width:400px;
-  height:400px;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
 }
 
-
-.a{
-  background: #4CDDE2;
-width:120px;
-  height:120px;
-  border-radius:10px;
- 
+.a {
+  background: #4cdde2;
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
 }
-.a:hover{
+.a:hover {
   background: red;
 }
-.a:after{
- display:flex;
+.a:after {
+  display: flex;
   justify-content: center;
-  align-items:center;
-  content:'❌';
-  width:120px;
-  height:120px;
+  align-items: center;
+  content: "❌";
+  width: 80px;
+  height: 80px;
   position: absolute;
-  opacity:0;
+  opacity: 0;
 }
-.a:hover:after{
-  opacity:1;
+.a:hover:after {
+  opacity: 1;
 }
-.b{
-  background: #4CDDE2;
-width:120px;
-  height:120px;
-  border-radius:10px;
- 
+.b {
+  background: #4cdde2;
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
 }
-.b:hover{
-  background:  red;
+.b:hover {
+  background: red;
 }
-.b:after{
- display:flex;
+.b:after {
+  display: flex;
   justify-content: center;
-  align-items:center;
-  content:'🔵';
-width:120px;
-  height:120px;
+  align-items: center;
+  content: "🔵";
+  width: 80px;
+  height: 80px;
   position: absolute;
-  opacity:0;
+  opacity: 0;
 }
-.b:hover:after{
-  opacity:1;
+.b:hover:after {
+  opacity: 1;
 }
-.cross{
-  display:flex;
+.cross {
+  display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   background: grey;
-width:120px;
-  height:120px;
-  border-radius:10px;
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
 }
 
-.zero{
-  display:flex;
+.zero {
+  display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   background: grey;
-width:120px;
-  height:120px;
-  border-radius:10px;
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
 }
-
-
-
